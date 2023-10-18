@@ -19,8 +19,8 @@ even_int_list: A list of even integers.
 Returns:
 The sum of the squares of all even numbers in the list.
 """
-# TODO: Implement sum_of_squares_of_even
-pass
+sum_of_square = sum(x ** 2 for x in even_int_list)
+    return sum_of_square
 # Main function
 def main():
 # Example list
